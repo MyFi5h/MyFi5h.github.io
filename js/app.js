@@ -18,7 +18,7 @@ $(document).ready(() => {
 });
 
 /* individual page code */
-const err404 = `<h1>GitHub Pages Does Not Support This</h1>`
+const err404 = `<h1 style="text-align: center">GitHub Pages Does Not Support This</h1>`
 
 const main =
 `<div id=main>
