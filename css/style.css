@@ -215,11 +215,9 @@ h1 {
   background: #de524c;
 }
 
-/* For the  main slideshow */
-* {box-sizing:border-box}
-
 /* Slideshow container */
 .slideshow-container {
+  box-sizing:border-box;
   max-width: 1000px;
   position: relative;
   margin: auto;
