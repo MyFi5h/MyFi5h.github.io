@@ -13,12 +13,12 @@ $(document).ready(() => {
         $("#content").html(art);
     });
     $("#contact-button").on("click", () => {
-        $("#content").html(contact);
+        $("#content").html(err404);
     });
 });
 
 /* individual page code */
-const err404 = `<h1>Error: Content not Found</h1>`
+const err404 = `<h1>GitHub Pages Does Not Support This</h1>`
 
 const main =
 `<div id=main>
