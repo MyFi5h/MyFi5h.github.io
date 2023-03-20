@@ -21,14 +21,43 @@ $(document).ready(() => {
 const err404 = `<h1 style="text-align: center">GitHub Pages Does Not Support This</h1>`
 
 const main =
-`<div id=main>
-    <p>This is a placeholder and I will eventually get around to figuring out what to include here.</p>
+`<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <img src="img1.jpg" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img2.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img3.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
 </div>`;
 
 const about = 
 `<div id='about'>
     <h1>About Me</h1>
-    <p style="text-indent: 1em">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamcorper eget nulla facilisi etiam dignissim diam quis enim. Cursus metus aliquam eleifend mi in nulla. Sagittis nisl rhoncus mattis rhoncus urna neque viverra justo nec. Diam vel quam elementum pulvinar. Rhoncus dolor purus non enim praesent elementum facilisis leo. Laoreet non curabitur gravida arcu ac tortor dignissim. Sit amet massa vitae tortor condimentum lacinia quis. Quam id leo in vitae turpis massa sed elementum tempus. Elementum sagittis vitae et leo duis ut diam quam. Ut tristique et egestas quis. Porttitor massa id neque aliquam vestibulum morbi blandit cursus risus. Nulla facilisi cras fermentum odio eu.
+    <p style="text-indent: 1em">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamcorper eget nulla facilisi etiam dignissim diam quis enim. Cursus metus aliquam eleifend mi in nulla. Sagittis nisl rhoncus mattis rhoncus urna neque viverra justo nec. Diam vel quam elementum pulvinar. Rhoncus dolor purus non enim praesent elementum facilisis leo. Laoreet non curabitur gravida arcu ac tortor dignissim. Sit amet massa vitae tortor condimentum lacinia quis. Quam id leo in vitae turpis massa sed elementum tempus. Elementum sagittis vitae et leo duis ut diam quam. Ut tristique et egestas quis. Porttitor massa id neque aliquam vestibulum morbi blandit cursus risus. Nulla facilisi cras fermentum odio eu.
     </p>
     <p style="text-indent: 1em">
     Quisque id diam vel quam elementum pulvinar. Proin nibh nisl condimentum id venenatis a condimentum. Et ligula ullamcorper malesuada proin libero nunc consequat interdum varius. Amet consectetur adipiscing elit ut aliquam. Gravida arcu ac tortor dignissim convallis aenean et tortor. Sit amet volutpat consequat mauris nunc congue. Magnis dis parturient montes nascetur ridiculus mus. Malesuada fames ac turpis egestas maecenas pharetra convallis posuere. Eget nullam non nisi est sit amet facilisis magna. Pellentesque elit ullamcorper dignissim cras tincidunt. Eu lobortis elementum nibh tellus molestie nunc non blandit. Tincidunt arcu non sodales neque sodales ut. Ligula ullamcorper malesuada proin libero nunc consequat interdum varius. Amet volutpat consequat mauris nunc congue nisi vitae suscipit. Sed vulputate odio ut enim blandit volutpat maecenas. Ac ut consequat semper viverra nam libero justo laoreet. Ac tortor dignissim convallis aenean et tortor at. Aenean euismod elementum nisi quis eleifend quam. Arcu dui vivamus arcu felis bibendum ut.
