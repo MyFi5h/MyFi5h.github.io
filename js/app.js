@@ -51,7 +51,8 @@ function showSlides(n) {
 const err404 = `<h1 style="text-align: center">GitHub Pages Does Not Support This</h1>`
 
 const main =
-`<div class="slideshow-container">
+`<h1 style="text-align: center">Welcome to <i>My Name Isn't Mitch</i></h1>
+<div class="slideshow-container">
 
   <div class="mySlides fade">
     <img src="./img/PlaceHolder.jpg" style="width:100%">
