@@ -48,7 +48,7 @@ function showSlides(n) {
 }
 
 /* individual page code */
-const err404 = `<h1 style="text-align: center">GitHub Pages Does Not Support This</h1>`
+const err404 = `<h1 style="text-align: center">GitHub Pages Does Not Support This</h1>`;
 
 const main =
 `<h1 style="text-align: center">Welcome to <i>My Name Isn't Mitch</i></h1>`;
