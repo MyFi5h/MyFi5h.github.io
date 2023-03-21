@@ -51,34 +51,7 @@ function showSlides(n) {
 const err404 = `<h1 style="text-align: center">GitHub Pages Does Not Support This</h1>`
 
 const main =
-`<h1 style="text-align: center">Welcome to <i>My Name Isn't Mitch</i></h1>
-<div class="slideshow-container">
-
-  <div class="mySlides fade">
-    <img src="./img/PlaceHolder.jpg" style="width:100%">
-    <div class="text">Caption Text</div>
-  </div>
-
-  <div class="mySlides fade">
-    <img src="./img/PlaceHolder.jpg" style="width:100%">
-    <div class="text">Caption Two</div>
-  </div>
-
-  <div class="mySlides fade">
-    <img src="./img/PlaceHolder.jpg" style="width:100%">
-    <div class="text">Caption Three</div>
-  </div>
-
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-</div>`;
+`<h1 style="text-align: center">Welcome to <i>My Name Isn't Mitch</i></h1>`;
 
 const about = 
 `<div id='about'>
